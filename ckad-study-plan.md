@@ -51,7 +51,6 @@ Passing Score: ~66%
 
 - [CKAD Curriculum GitHub](https://github.com/cncf/curriculum)
 - [CKAD Killer.sh Simulator](https://killer.sh/)
-- [KodeKloud CKAD Course](https://kodekloud.com/p/ckad)
 - [Kubernetes Docs](https://kubernetes.io/docs/home/)
 
 ---
