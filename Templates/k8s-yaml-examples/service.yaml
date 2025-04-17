@@ -1,0 +1,13 @@
+# A basic Service definition
+apiVersion: v1
+kind: Service
+metadata:
+  name: example-service
+spec:
+  selector:
+    app: demo  # Match labels in pods
+  ports:
+  - protocol: TCP
+    port: 80      # Port exposed by the service
+    targetPort: 80  # Port on the pod
+  type: ClusterIP

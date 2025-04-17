@@ -1,0 +1,10 @@
+# A basic ConfigMap definition
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: example-config
+data:
+  config.json: |
+    {
+      "key": "value"
+    }

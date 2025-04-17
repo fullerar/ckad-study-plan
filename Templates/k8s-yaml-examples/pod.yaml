@@ -1,0 +1,13 @@
+# A basic Pod definition
+apiVersion: v1
+kind: Pod
+metadata:
+  name: example-pod
+  labels:
+    app: demo
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx:latest
+    ports:
+    - containerPort: 80
